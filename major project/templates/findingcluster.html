@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title> </title>
+    </head>
+
+    <body>
+        <h6>
+<center>
+< form action="{{ url_for('predict')}}"method="post">
+<label for="BMI" >BMI:</label><br>
+<input type="text" id="BMI" name="BMI" placeholder="BMI" required="required"/><br><br>
+<label for="Charges">Charges:</label><br>
+<input type="text" id="Charges" name="Charges" placeholder="Charges" required="required"/><br><br>
+<button type="submit" class="btn btn-primary btn-block">Predict</button>
+</form>
+<br>
+</center>
+</h6>
+    
+    </body>
+</html>
